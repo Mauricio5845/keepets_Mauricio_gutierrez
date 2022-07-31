@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/e0479c709c.js" crossorigin="anonymous"></script>
+    <title>Index</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="container">
+                <div class="row">
+                <button class="nav-toggle" aria-label="abrir navegacion">
+                    <span class="hamburger"></span>
+                </button>
+                <a href="/" class="logo">
+                    <img src="../imagenes/keepetsb.svg" alt="Keepets" />
+                </a>
+                <nav class="nav">
+                    <ul class="nav__list nav__list--primary">
+                    <li class="nav__item"><a class="nav__link" href="/">Inicio</a></li>
+                    <li class="nav__item"><a href="paginas/quienes.html">Quienes somos</a></li>
+                    <li class="nav__item"><a href="paginas/tienda.html">Tienda</a></li>
+                    <li class="nav__item"><a href="paginas/contactanos.html">Contactanos</a></li>
+                    <li class="nav__item"><a href="paginas/login.html">Log In</a></li>
+                    </ul>
+                    <ul class="nav__list">
+                    <li class="nav__item">
+                        <form action="" method="get">
+                            <input type="text" placeholder="Buscar..." name="buscar">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </li>
+                    </ul>
+                </nav>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="section">
+                <br>
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="../imagenes/uno.jpg" class="imgcarr">
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="../imagenes/dos.jpg" class="imgcarr">
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="../imagenes/tres.png" class="imgcarr">
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                    
+                </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+
+                    <div id="container">
+
+                        <div class="textosizq" id="textosizq">
+                            <div class="texto_1">
+                                <textarea class="text" name="" id="" cols="40" rows="5" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, tempore quas! Sint asperiores dicta quo impedit eaque, cumque repellat? Veritatis.</textarea>
+                            </div>
+                            <br>
+                            <div class="texto_2">
+                                <textarea class="text" name="" id="" cols="40" rows="5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem hic quidem dolorum quasi necessitatibus, dolorem error similique rem autem ut optio vitae maiores, corporis dolores iusto animi ea, eveniet pariatur.</textarea>
+                            </div>
+                            <br>
+                            <div class="texto_3">
+                                <textarea class="text" name="" id="" cols="40" rows="5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum id dolorum velit numquam ipsa obcaecati doloribus veritatis, culpa molestias iste iusto aliquam. Atque iusto eveniet recusandae magni odit repudiandae! Veritatis, facere! Repudiandae necessitatibus animi quos?</textarea>
+                            </div>
+
+                        </div>
+
+                        <div class="textosder" id="textosder">
+                            <fieldset>
+                                <legend>Ofertas</legend>
+                                <div class="container">
+                                    <div class="container_anuncio">
+                                        <a href=""><img src="../imagenes/anuncio1.png" class="img_anuncio" alt=""></a>
+                                    </div> 
+                                    <div class="container_anuncio"> 
+                                        <a href=""><img src="../imagenes/anuncio2.jpg" class="img_anuncio" alt=""></a>
+                                    </div> 
+                                    <div class="container_anuncio"> 
+                                        <a href=""><img src="../imagenes/anuncio3.jpg" class="img_anuncio" alt=""></a>
+                                    </div> 
+                                    <div class="container_anuncio"> 
+                                        <a href=""><img src="../imagenes/anuncio4.jpg" class="img_anuncio" alt=""></a>
+                                    </div>
+                                </div>
+                            </fieldset>                    
+                        </div>
+                    </div>
+
+            </section>
+        </main> 
+        <footer>
+            <div class="logo_footer">
+                <h1>Keepets</h1>
+            </div>
+            <div >
+                <div class="row_footer">
+                    <div >
+                        <ul class="container_footer">
+                            <li class="links_footer"><a href="index.html">Inicio</a></li>
+                            <li class="links_footer"><a href="paginas/tienda.html">Tienda</a></li>
+                            <li class="links_footer"><a href="paginas/login.html">Login</a></li>
+                        </ul>
+                    </div>
+                    <div class="idioma">
+                        <div>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>                
+                        <div>
+                            <label for="idioma">Idioma: </label>
+                            <select name="idiomas" id="idiomas">
+                                <option value="es">Español</option>
+                                <option value="en">Ingles</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
